@@ -1,16 +1,15 @@
 # bitcoin_ticker
 
-A new Flutter project.
+Boss Level Challenge 3 - BitCoin Ticker
 
-## Getting Started
+## Important
 
-This project is a starting point for a Flutter application.
+You need to generate your own API key in order to run app successfully
 
-A few resources to get you started if this is your first Flutter project:
+### Generate your own API key:
+1. Go to CoinAPI.io
+2. Get free API key
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Place it at accurate location
+1. Go to lib >> utilities >> constants.dart
+2. Add your API key as a value to the constant called apiKey
